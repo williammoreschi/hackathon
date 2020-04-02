@@ -4,11 +4,7 @@ class JobOpportunity extends Model {
   static init(sequelize) {
     super.init(
       {
-<<<<<<< HEAD
-        company_id:Sequelize.INTEGER,
-=======
         company_id: Sequelize.INTEGER,
->>>>>>> upstream/master
         job_name: Sequelize.STRING,
         techs: Sequelize.STRING,
         type_position: Sequelize.STRING,
